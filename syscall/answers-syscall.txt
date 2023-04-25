@@ -1,0 +1,11 @@
+Q1. Looking at the backtrace output, which function called syscall?
+- usertrap
+
+Q2. What is the value of p->trapframe->a7 and what does that value represent? (Hint: look user/initcode.S, the first user program xv6 starts.)
+- 0x7 (SYS_exec)
+
+Q3. What was the previous mode that the CPU was in?
+- U-mode
+
+Q4. Write down the assembly instruction the kernel is panicing at. Which register corresponds to the varialable num?
+- 
